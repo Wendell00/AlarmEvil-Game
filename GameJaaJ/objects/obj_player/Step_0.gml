@@ -1,9 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 movex = -keyboard_check(ord("A"))+keyboard_check(ord("D"))
 movey = -keyboard_check(ord("W"))+keyboard_check(ord("S"))
-hspd = movex * spd
-vspd = movey * spd
+hspd = movex * spd * 3
+vspd = movey * spd * 3
 
 if place_meeting(x + hspd, y, obj_border)
 {
