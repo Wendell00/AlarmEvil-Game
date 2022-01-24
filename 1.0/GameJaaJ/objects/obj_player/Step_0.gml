@@ -25,14 +25,15 @@ if place_meeting(x,y + vspd, obj_border)
 y += vspd
 #endregion 
 #region VIDA DO PLAYER 
-if mouse_check_button_pressed(mb_left)
+
+//tiro mata o player, tá matando insta na true, mas to indo dormir ve ai
+if place_meeting(obj_player.x, obj_player.y, obj_bullet)
 {
 	if global.life > 0
 	{	
 		global.life--
 	}
 	else global.life = 0
-	
 	if global.life == 0 
 	{
 		game_restart()
@@ -47,6 +48,6 @@ if global.hp_width < 1 and count == 1
 	count = 0
 	instance_destroy(obj_enemy)
 	instance_destroy(obj_rangeEnemy)
-	alarm[0] = 60*7
+	alarm[0] = 60*3
 }
 #endregion

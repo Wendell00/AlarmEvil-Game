@@ -1,3 +1,9 @@
 spd = 2;
 alarm[0] = 50
-num = 0
+count = 1
+spd = 6
+hp = 36
+global.hp_width = 1000;
+hp_maxWid = global.hp_width;
+hp_height = 24;
+hp_x = (1024/2) - (global.hp_width/2);
