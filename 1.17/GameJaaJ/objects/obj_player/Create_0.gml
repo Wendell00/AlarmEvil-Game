@@ -1,5 +1,5 @@
 count = 1 // contador para o Step/Region IR PARA FASE 2
-spd = 5 // Velocidade do player
+spd = 4 // Velocidade do player
 hspd = 0
 vspd = 0
 

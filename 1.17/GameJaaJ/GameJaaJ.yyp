@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"round_2","path":"rooms/round_2/round_2.yy",},"order":3,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_borderDown","path":"sprites/spr_borderDown/spr_borderDown.yy",},"order":12,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":2,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"spr_hpBoss","path":"sprites/spr_hpBoss/spr_hpBoss.yy",},"order":9,},
