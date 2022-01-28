@@ -1,0 +1,1 @@
+global.faseNumber = 1
